@@ -43,6 +43,11 @@ p.lead { color: var(--muted); font-size: 18px; margin-bottom: 24px; }
   background: var(--accent);
   box-shadow: var(--shadow);
 }
+.app-store-badge {
+  height: 60px;
+  width: auto;
+  display: block;
+}
 .tag { display: inline-flex; gap: 8px; align-items: center; background: #e9ecff; color: #2d3bb8; padding: 8px 12px; border-radius: 999px; font-weight: 600; }
 .card, .panel {
   background: var(--card);
