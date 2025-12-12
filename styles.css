@@ -18,7 +18,7 @@ header, section, footer { padding: 72px 20px; }
   min-height: 100vh;
   display: flex;
   align-items: flex-start;
-  padding-top: 80px;
+  padding-top: 120px;
   padding-bottom: 72px;
   background: #ffffff;
 }
