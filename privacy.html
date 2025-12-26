@@ -53,7 +53,7 @@
   <div class="wrap content">
     <header class="panel" style="margin-bottom:18px;">
       <h1>Privacy Policy</h1>
-      <p class="meta"><em>Last updated: December 20, 2025</em></p>
+      <p class="meta"><em>Last updated: December 27, 2025</em></p>
       <p style="margin-top:12px;">Konda is designed to make staying in touch simple and thoughtful. Privacy is extremely important to us and we aim to only collect the information needed to provide app functionality. We do not run ads or sell your data to any third parties.
     </p>
     </header>
@@ -63,17 +63,18 @@
         <h2>Data we collect and store</h2>
         <ul>
           <li><strong>Account & identifiers:</strong> We collect account information such as username, nickname and device tokens to be able to send and deliver nudges.</li>
-          <li><strong>Contacts:</strong> Approved connections between accounts (who you’ve added/accepted).</li>
+          <li><strong>Contacts:</strong> Approved connections between accounts (who you've added/accepted).</li>
           <li><strong>Nudges:</strong> The nudge type you send/receive and timestamps (sender, recipient, sent time).</li>
-          <li><strong>Profile data:</strong> In-app profile information such as your level and accumulated XP points.</li>
+          <li><strong>Profile data:</strong> We collect and store the account creation date and in-app profile information such as your level and accumulated XP points. If you choose to upload a profile photo, we store the image and related metadata (such as file size and format) to display it to your approved connections. Profile photos are optional and can be changed or deleted at any time. We store only the currently active profile photo. When you upload a new photo or delete your profile photo, the previously stored image is deleted from our servers as part of normal operation. In limited cases, deletion may be delayed due to technical or operational reasons (such as retries or system maintenance), but we do not intentionally retain prior profile photos beyond what is necessary to operate the Service.</li>
         </ul>
       </section>
 
       <section class="section">
         <h2>Where data is stored</h2>
         <ul>
-          <li><strong>Server:</strong> Account IDs, usernames/nicknames, contacts, nudge history (type + sender/recipient/time), device tokens are stored securely on a virtual private server hosted by Linode.</li>
-          <li><strong>iCloud:</strong> Your nudge history, favorites, groups, pending sends; scoped to your personal Apple ID’s private iCloud, if you have iCloud enabled for the app.</li>
+          <li><strong>Server:</strong> Account IDs, usernames/nicknames, contacts, nudge history (type + sender/recipient/time), device tokens are stored securely on a virtual private server hosted by Linode (Akamai).</li>
+          <li><strong>Object Storage:</strong> Profile photos are stored securely on our servers using a reputable cloud infrastructure provider (Akamai). Profile photos are not publicly accessible and are visible only to users with whom you have an approved connection.</li>
+          <li><strong>iCloud:</strong> Your nudge history, favorites, groups, pending sends; scoped to your personal Apple ID's private iCloud, if you have iCloud enabled for the app.</li>
           <li><strong>On-device:</strong> Local caches and pending items are temporarily stored  on device for performance/offline use and general functionality of the app.</li>
         </ul>
       </section>
@@ -84,9 +85,16 @@
           <li>Authenticate you (Sign in with Apple).</li>
           <li>Deliver nudges and notifications (push to phone/watch).</li>
           <li>Maintain contacts, streaks and inbox history.</li>
+          <li>Display your profile photo to your approved connections.</li>
           <li>Sync phone ↔ watch and iCloud backups.</li>
         </ul>
-        <p>We only use the data we collect to provide the service. You can delete your account and all associated data at any time.</p>
+        <br>
+        <p>We process stored data only as necessary to provide, maintain, and protect the Service. You can delete your account and all associated data at any time. We may access stored data only as necessary to operate, maintain, and support the Service or to investigate violations of our Terms.</p>
+      </section>
+
+      <section class="section">
+        <h2>Visibility of Profile Photos in the App</h2>
+        <p>Your profile photo is visible to users with whom you have an approved connection. Profile photos are not publicly visible and are not accessible to users outside your approved contacts/connections.</p>
       </section>
 
       <section class="section">
@@ -95,25 +103,32 @@
           <li>We do not sell or share your data with third parties.</li>
           <li>Push delivery goes through Apple Push Notification service.</li>
           <li>iCloud storage is via your private CloudKit database.</li>
-          <li><strong>Other users:</strong> Your level and XP can be viewed by approved connections when they view your profile.</li>        
-          <li><strong>Widget display:</strong> If you designate a connection as your Widget Buddy, the most recent nudge you receive from that connection may be displayed in a Home Screen widget.</li>
+        </ul>
+        <br>
+        <p><strong>Service providers:</strong> We use third-party service providers to operate and secure the Service, including:</p>
+        <ul>
+          <li><strong>Cloudflare:</strong> Cloudflare provides content delivery, security, and network protection services. Cloudflare processes network traffic (such as IP addresses and request metadata) in order to deliver these services.</li>
         </ul>
       </section>
 
       <section class="section">
         <h2>Data Security</h2>
-        <p>We implement industry-standard security measures to protect your data, such as:    </p>
+        <p>We implement reasonable, industry-standard security measures to protect your data from unauthorized access, loss, misuse, or alteration. These measures include:</p>
         <ul>
-          <li>Transport over HTTPS.</li>
+          <li>Encryption of data in transit using HTTPS.</li>
+          <li>Restricted access to production systems and stored data.</li>
           <li>Limited access controls for our development team.</li>
+          <li>Use of reputable cloud infrastructure providers.</li>
         </ul>
+        <p>
+          However, no method of transmission or storage is completely secure, and we cannot guarantee absolute security of the data we collect and store.</p>
       </section>
 
       <section class="section">
         <h2>Retention & deletion</h2>
         <ul>
           <li>Data persists while your account is active.</li>
-          <li>If you choose to delete your account, we automatically delete all associated data from our servers. You can choose to delete any data stored on your personal iCloud account through your iCloud settings.</li>
+          <li>If you choose to delete your account, we automatically delete all associated data from our servers, including your profile photo and any related metadata. You can choose to delete any data stored on your personal iCloud account through your iCloud settings.</li>
         </ul>
       </section>
 
@@ -134,7 +149,7 @@
 
       <section class="section">
         <h2>Changes to Privacy Policy</h2>
-        <p>Users will be notified of any changes to this privacy policy with an in-app notification. We encourage you to review this policy periodically for any updates.</p>
+        <p>We may update this Privacy Policy from time to time. Notice of material changes may be provided through the App. The “Last updated” date at the top of this policy indicates when it was last revised.</p>
       </section>
 
       <section class="section">
